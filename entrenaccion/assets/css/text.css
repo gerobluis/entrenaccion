@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: 'amplitude-bold';
+    src: url('fonts/amplitude-bold-webfont.eot');
+    src: url('fonts/amplitude-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/amplitude-bold-webfont.woff') format('woff'),
+         url('fonts/amplitude-bold-webfont.ttf') format('truetype'),
+         url('fonts/amplitude-bold-webfont.svg#PTSansBold') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'amplitude-book';
+    src: url('fonts/Amplitude-Book.eot');
+    src: url('fonts/Amplitude-Book.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amplitude-Book.woff') format('woff'),
+         url('fonts/Amplitude-Book.ttf') format('truetype'),
+         url('fonts/Amplitude-Book.svg#PTSansBold') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, p { margin:0 0 10px; padding:0; line-height:120%;	font-style: normal;	font-weight: normal;	font-variant: normal; }
+body, a, textarea, .normal, #header input {
+	color: #373837;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	font-family:"Droid Sans";
+}
+.taright{text-align: right;}
+
+/* Size */
+a:link, .font14 {font-size: 14px;}
+.font20{font-size: 20px !important;}
+.font21{font-size: 21px !important;}
+.font39{font-size: 39px !important;}
+.font18{font-size: 18px !important;}
+.font17{font-size: 17px !important;}
+.font25, .contacto{font-size: 25px !important;}
+.font19{font-size: 19px !important;}
+.font52{font-size: 52px !important;}
+.font36, label{ font-size: 36px; line-height: 50px;}
+
+/* Color */
+.whiteT, table.reportes th{ color: #fff;}
+a:link, a:visited { color: #B3B3B3;}
+.blueT, label, a.current:link, a:link:hover, a:visited:hover, h1 {color: #2D3364;}
+
+/* Style */
+

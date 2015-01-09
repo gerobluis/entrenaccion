@@ -1,0 +1,159 @@
+label{
+    display: block;
+    font-weight: normal;
+}
+#donate {
+    margin-left:45px;
+   
+    float:left;
+}
+
+#close {
+    margin:4px;
+   
+    float:right;
+}
+
+#donate label {
+    float:left;
+    width:50px;
+    line-height: normal;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+       
+}
+#close label {
+    float:left;
+    width:60px;
+    line-height: normal;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+       
+}
+
+
+#donate label span {
+    text-align:center;
+    font-size: 16px;
+  
+    display:block;
+}
+
+#close label span {
+    text-align:center;
+    font-size: 22px;
+  
+    display:block;
+}
+
+
+#donate label input {
+    display: none;
+    position:absolute;
+    top:-20px;
+}
+
+#close label input {
+    position:absolute;
+    top:-20px;
+}
+
+#donate .red input:checked + span {
+     background-color:#F50909;
+    color:#F7EFEF;
+}
+#donate .green input:checked + span {
+    background-color:#A3D900;
+    color:#F7EFEF;
+}
+#close input:checked + span {
+    background-color:#404040;
+    color:#F7F7F7;
+}
+
+#donate .red {
+    background-color:#FFF;
+    color:#000;
+   
+}
+
+
+
+#donate .green {
+    background-color:#FFF;
+    color:#000;
+    
+}
+img{
+        width: 200px;
+        margin: 10px auto 50px 0;
+    }
+#botones{
+    margin-top: 50px;
+    margin-left: 45%;
+}
+#opciones label{
+    text-align: center;
+}
+input {
+    text-transform: uppercase;
+}
+.navbar-nav.navbar-right:last-child {
+margin-right: 0px;
+}
+#preloader  {
+    opacity: 0.4;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #f0f0f0;
+     z-index: 99;
+    height: 100%;
+ }
+
+#status  {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     background-image: url(ajax-loader.gif);
+     background-repeat: no-repeat;
+     background-position: center;
+     margin: -100px 0 0 -100px;
+ }
+ /*--- DROPDOWN ---*/
+.nav ul{
+    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background:rgba(255,255,255,200); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    margin-top: 30px;
+}
+.nav ul li{
+    padding-top:3px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float:none;
+}
+.nav ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+.nav li:hover ul{ /* Display the dropdown on hover */
+    left:0; /* Bring back on-screen when needed */
+}
+.nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+   
+    text-decoration:underline;
+}
+.nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration:none;
+}
+.nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    
+}
